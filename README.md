@@ -24,11 +24,6 @@ A fun and mystical optical illusion game built with **HTML, CSS, and JavaScript*
 - CSS3 (shadows, transitions, gradients)  
 - JavaScript (vanilla)
 
-🧠 The Illusion
-The game relies on a math trick:  
-Any 2-digit number minus the sum of its digits will always result in a **multiple of 9**.  
-The same symbol is secretly assigned to all multiples of 9 — creating the illusion of "mind reading".
-
 📜 License
 This project is open source and available under the [MIT License](LICENSE).
 
