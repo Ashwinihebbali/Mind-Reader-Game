@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(ellipse at center, #1a1a1a 0%, #0d0d0d 100%);
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #111, #222);
+  box-shadow: 0 0 30px #7000ff;
+  border: 2px solid #888;
+}
+
+.title {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 48px;
+  color: #ffb6f2;
+  margin-bottom: 10px;
+  text-shadow: 0 0 15px #ff00c8;
+}
+
+.intro {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.instructions {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #aaa;
+  font-style: italic;
+}
+
+.symbols-box {
+  font-size: 18px;
+  text-align: left;
+  padding: 15px;
+  border: 1px dashed #888;
+  height: 300px;
+  overflow-y: auto;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.reveal-btn {
+  font-size: 20px;
+  padding: 12px 30px;
+  background: #9400d3;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 0 15px #b000ff;
+  transition: transform 0.2s ease-in-out;
+}
+
+.reveal-btn:hover {
+  transform: scale(1.05);
+  background: #a34cf1;
+}
+
+.loading-text {
+  display: none;
+  font-size: 22px;
+  color: #aaa;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.reveal-answer {
+  font-size: 36px;
+  margin-top: 20px;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.reveal-answer.show {
+  opacity: 1;
+  color: #ff8cf7;
+  text-shadow: 0 0 20px #ff00ff, 0 0 40px #ff00ff;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #777;
+}

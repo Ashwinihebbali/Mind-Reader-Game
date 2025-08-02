@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🔮 Mind Reader | Optical Illusion</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">🔮 Mind Reader</h1>
+    <p class="intro">Prepare to be amazed. I will read your mind with nothing but math and a little magic...</p>
+
+    <div class="instructions">
+      <p>1️⃣ Pick any 2-digit number.<br>
+      2️⃣ Add both digits together.<br>
+      3️⃣ Subtract that number from the original number.<br>
+      4️⃣ Find the symbol next to your result below.<br><br>
+      Then click <strong>Reveal</strong>.</p>
+    </div>
+
+    <div id="symbols" class="symbols-box"></div>
+
+    <button onclick="revealSymbol()" class="reveal-btn">🔮 Reveal</button>
+
+    <h2 id="loading" class="loading-text">Reading your mind...</h2>
+    <h2 id="answer" class="reveal-answer"></h2>
+
+    <footer>
+      <p>✨ Made with magic by <strong>YourName</strong> ✨</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
