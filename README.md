@@ -19,13 +19,6 @@ A fun and mystical optical illusion game built with **HTML, CSS, and JavaScript*
 4. Find the symbol next to your result.  
 5. Click the **🔮 Reveal** button — and be amazed!
 
-📁 Project Structure
-Mind-Reader_Game/
-
-├── index.html # Main page
-├── style.css # UI styling
-└── script.js # Symbol logic + reveal animation
-
  🛠️ Tech Stack
 - HTML5  
 - CSS3 (shadows, transitions, gradients)  
