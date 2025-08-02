@@ -35,10 +35,6 @@ The game relies on a math trick:
 Any 2-digit number minus the sum of its digits will always result in a **multiple of 9**.  
 The same symbol is secretly assigned to all multiples of 9 — creating the illusion of "mind reading".
 
-📸 ScreenShot
-<img width="300" height="390" alt="Screenshot 2025-08-02 181152" src="https://github.com/user-attachments/assets/9cb8eff5-0dfb-4207-82e3-ac2e98369d10" />
-<img width="300" height="390" alt="Screenshot 2025-08-02 181209" src="https://github.com/user-attachments/assets/8f28fc22-4213-4305-94f5-3cd635a09ac0" />
-
 📜 License
 This project is open source and available under the [MIT License](LICENSE).
 
