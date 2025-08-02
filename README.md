@@ -21,6 +21,7 @@ A fun and mystical optical illusion game built with **HTML, CSS, and JavaScript*
 
 📁 Project Structure
 Mind-Reader_Game/
+
 ├── index.html # Main page
 ├── style.css # UI styling
 └── script.js # Symbol logic + reveal animation
