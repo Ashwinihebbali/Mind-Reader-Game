@@ -1,5 +1,5 @@
 🔮 Mind Reader – Optical Illusion Game
- 
+  
 “I can read your mind… with just math and a little magic.”
 A fun and mystical optical illusion game built with **HTML, CSS, and JavaScript**. This project creates the illusion that it can guess the symbol you're thinking of — but the trick lies in clever math and visual storytelling.
 
